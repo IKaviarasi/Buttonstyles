@@ -1,0 +1,41 @@
+body{
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	background-color: black;
+}
+
+.container{
+	margin: auto;
+}
+
+button{
+	padding: 10px 20px;
+	margin: 20px;
+	font-size: 1em;
+	font-family: sans-serif;
+	font-weight: bold;
+	cursor: pointer;
+	border: none;
+	transition: .8s ease-in;
+}
+
+.btn-1:hover{
+	background-color: yellow;
+	box-shadow: 0px 0px 20px yellow, 0px 0px 20px yellow;
+}
+
+.btn-2:hover{
+	box-shadow: 10px 10px 0px #C733FF;
+}
+
+.btn-3:hover{
+	box-shadow: inset 4px 4px 4px red, inset -4px -4px 4px red;
+	background-color: black;
+	color: red;
+}
+
+.btn-4:hover{
+	box-shadow: inset -140px 0px 0px 0px green, inset 140px 0px 0px 0px green;
+}
